@@ -1,0 +1,19 @@
+{
+    "description": "Registry settings to apply. Each entry specifies a path, value name, data, and type.",
+    "settings": [
+        {
+            "description": "Example: Disable Windows Copilot",
+            "path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsCopilot",
+            "name": "TurnOffWindowsCopilot",
+            "value": 1,
+            "type": "DWord"
+        },
+        {
+            "description": "Example: Show file extensions in Explorer",
+            "path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+            "name": "HideFileExt",
+            "value": 0,
+            "type": "DWord"
+        }
+    ]
+}
